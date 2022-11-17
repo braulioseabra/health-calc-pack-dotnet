@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>health_calc_pack_dotnet</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Interfaces\" />
+    <None Remove="Enums\" />
+    <None Remove="Models\" />
+    <None Remove="Strategy\" />
+    <None Remove="Strategy\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Models\" />
+    <Folder Include="Strategy\" />
+    <Folder Include="Strategy\Base\" />
+  </ItemGroup>
+</Project>
