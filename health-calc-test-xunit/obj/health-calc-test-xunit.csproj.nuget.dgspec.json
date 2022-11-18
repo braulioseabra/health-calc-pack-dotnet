@@ -1,74 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-test-xunit/health-calc-test-xunit.csproj": {}
+    "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-test-xunit/health-calc-test-xunit.csproj": {}
   },
   "projects": {
-    "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-pack-dotnet/src/health-calc-pack-dotnet/health-calc-pack-dotnet.csproj": {
+    "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-test-xunit/health-calc-test-xunit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-pack-dotnet/src/health-calc-pack-dotnet/health-calc-pack-dotnet.csproj",
-        "projectName": "health-calc-pack-dotnet",
-        "projectPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-pack-dotnet/src/health-calc-pack-dotnet/health-calc-pack-dotnet.csproj",
-        "packagesPath": "/Users/brauliobarbosaguimaraesseabra/.nuget/packages/",
-        "outputPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-pack-dotnet/src/health-calc-pack-dotnet/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/brauliobarbosaguimaraesseabra/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-test-xunit/health-calc-test-xunit.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-test-xunit/health-calc-test-xunit.csproj",
+        "projectUniqueName": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-test-xunit/health-calc-test-xunit.csproj",
         "projectName": "health-calc-test-xunit",
-        "projectPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-test-xunit/health-calc-test-xunit.csproj",
+        "projectPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-test-xunit/health-calc-test-xunit.csproj",
         "packagesPath": "/Users/brauliobarbosaguimaraesseabra/.nuget/packages/",
-        "outputPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-test-xunit/obj/",
+        "outputPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-test-xunit/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brauliobarbosaguimaraesseabra/.nuget/NuGet/NuGet.Config"
@@ -83,11 +26,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-pack-dotnet/src/health-calc-pack-dotnet/health-calc-pack-dotnet.csproj": {
-                "projectPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-pack-dotnet/src/health-calc-pack-dotnet/health-calc-pack-dotnet.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -137,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

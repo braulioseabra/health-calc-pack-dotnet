@@ -1,6 +1,6 @@
-﻿using health_calc_pack_dotnet;
-using health_calc_pack_dotnet.Enums;
-using health_calc_pack_dotnet.Models;
+﻿using health_calc_pack_dotnet_braulio_seabra;
+using health_calc_pack_dotnet_braulio_seabra.Enums;
+using health_calc_pack_dotnet_braulio_seabra.Models;
 
 namespace health_calc_test_xunit
 {

@@ -1,4 +1,4 @@
-﻿using health_calc_pack_dotnet;
+﻿using health_calc_pack_dotnet_braulio_seabra;
 
 namespace health_calc_test_xunit
 {

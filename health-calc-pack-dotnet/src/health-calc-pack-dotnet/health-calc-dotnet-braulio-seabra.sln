@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1703.8
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "health-calc-pack-dotnet", "health-calc-pack-dotnet.csproj", "{EEBF14C2-00AE-4031-91A3-90128254A667}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "health-calc-pack-dotnet-braulio-seabra", "health-calc-pack-dotnet-braulio-seabra.csproj", "{EEBF14C2-00AE-4031-91A3-90128254A667}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "health-calc-test-xunit", "..\..\..\health-calc-test-xunit\health-calc-test-xunit.csproj", "{F11F5365-AD0C-4CFB-9956-0D5D482B7BF3}"
 EndProject

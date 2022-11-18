@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0dksu11QIIt2Wp1C+jrwQFJmbUL/6a478nQIga80rrjhn7tkPHC65VlhoyjWKiGS7WNbaEugr9YexH/uWURJWg==",
+  "dgSpecHash": "XtyHbiw2+C9qm0sUPxkU146myDOZqKV5QG9NTZrME41IgCUy5d/ak5zQtUhsjkgUp9LnkImnE3gQB+JqKwXBJA==",
   "success": true,
-  "projectFilePath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet/health-calc-test-xunit/health-calc-test-xunit.csproj",
+  "projectFilePath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-test-xunit/health-calc-test-xunit.csproj",
   "expectedPackageFiles": [
     "/Users/brauliobarbosaguimaraesseabra/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/brauliobarbosaguimaraesseabra/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
