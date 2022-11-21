@@ -1,4 +1,4 @@
-﻿namespace health_calc_pack_dotnet.Models
+﻿namespace health_calc_pack_dotnet_braulio_seabra.Models
 {
     public class MacronutrienteModel
     {

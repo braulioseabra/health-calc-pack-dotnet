@@ -1,9 +1,9 @@
 ﻿using System;
-using health_calc_pack_dotnet.Enums;
+using health_calc_pack_dotnet_braulio_seabra.Enums;
 
 
 
-namespace health_calc_pack_dotnet.Strategy.Base
+namespace health_calc_pack_dotnet_braulio_seabra.Strategy.Base
 {
     public abstract class MacroNutrienteBase
     {

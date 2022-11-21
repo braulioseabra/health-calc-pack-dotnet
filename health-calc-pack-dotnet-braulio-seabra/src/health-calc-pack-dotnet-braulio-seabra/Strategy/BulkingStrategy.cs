@@ -1,26 +1,25 @@
 ﻿using System;
-using health_calc_pack_dotnet.Enums;
-using health_calc_pack_dotnet.Interfaces;
-using health_calc_pack_dotnet.Models;
-using health_calc_pack_dotnet.Strategy.Base;
+using health_calc_pack_dotnet_braulio_seabra.Enums;
+using health_calc_pack_dotnet_braulio_seabra.Interfaces;
+using health_calc_pack_dotnet_braulio_seabra.Models;
+using health_calc_pack_dotnet_braulio_seabra.Strategy.Base;
 
-
-namespace health_calc_pack_dotnet.Strategy
+namespace health_calc_pack_dotnet_braulio_seabra.Strategy
 {
-    public class BulkingNivelAtividadeAtivoStrategy : MacroNutrienteBase, IMacronutrienteStrategy
+    public class BulkingStrategy : MacroNutrienteBase, IMacronutrienteStrategy
 
     {
 
         const int PROTEINA = 2;
         const int GORDURA = 2;
-        const int CARBOIDRATO = 7;
+        const int CARBOIDRATO = 4;
 
-        public BulkingNivelAtividadeAtivoStrategy(SexoEnum sexo) : base(sexo)
+        public BulkingStrategy(SexoEnum sexo) : base(sexo)
 
         {
 
         }
-      
+
 
         public MacronutrienteModel Calc(double Weight)
 

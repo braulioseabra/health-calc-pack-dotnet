@@ -1,10 +1,10 @@
-﻿using health_calc_pack_dotnet.Enums;
-using health_calc_pack_dotnet.Interfaces;
-using health_calc_pack_dotnet.Models;
-using health_calc_pack_dotnet.Strategy;
+﻿using health_calc_pack_dotnet_braulio_seabra.Enums;
+using health_calc_pack_dotnet_braulio_seabra.Interfaces;
+using health_calc_pack_dotnet_braulio_seabra.Models;
+using health_calc_pack_dotnet_braulio_seabra.Strategy;
 using System;
 
-namespace health_calc_pack_dotnet
+namespace health_calc_pack_dotnet_braulio_seabra
 {
     public class Macronutriente : IMacronutriente
     {
@@ -22,21 +22,21 @@ namespace health_calc_pack_dotnet
             throw new Exception("Invalid Parameters!");
 
          
-            IMacronutrienteStrategy macronutrienteStrategy = new CuttingStrategy();
+            IMacronutrienteStrategy macronutrienteStrategy = new CuttingStrategy(Sexo);
 
             if (objetivoFisico == ObjetivoFisicoEnum.Cutting)
-                macronutrienteStrategy = new CuttingStrategy();
+                macronutrienteStrategy = new CuttingStrategy(Sexo);
             else if (objetivoFisico == ObjetivoFisicoEnum.Bulking)
             {
                 if (nivelAtividadeFisica == NivelAtividadeFisicaEnum.BastanteAtivo ||
                     nivelAtividadeFisica == NivelAtividadeFisicaEnum.ExtremamenteAtivo)
                     macronutrienteStrategy = new BulkingNivelAtividadeAtivoStrategy(Sexo);
                 else
-                    macronutrienteStrategy = new BulkingStrategy();
+                    macronutrienteStrategy = new BulkingStrategy(Sexo);
             }
                 
             else if (objetivoFisico == ObjetivoFisicoEnum.Maintenance)
-                macronutrienteStrategy = new MaintenanceStrategy();
+                macronutrienteStrategy = new MaintenanceStrategy(Sexo);
 
             var context = new MacronutrienteContex(macronutrienteStrategy);
             var Result = context.Execute(Weight);

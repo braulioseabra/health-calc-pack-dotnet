@@ -1,4 +1,4 @@
-﻿namespace health_calc_pack_dotnet.Enums
+﻿namespace health_calc_pack_dotnet_braulio_seabra.Enums
 {
     public enum NivelAtividadeFisicaEnum
     {

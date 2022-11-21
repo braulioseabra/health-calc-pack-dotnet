@@ -1,8 +1,8 @@
 ﻿using System;
-using health_calc_pack_dotnet.Interfaces;
-using health_calc_pack_dotnet.Models;
+using health_calc_pack_dotnet_braulio_seabra.Interfaces;
+using health_calc_pack_dotnet_braulio_seabra.Models;
 
-namespace health_calc_pack_dotnet
+namespace health_calc_pack_dotnet_braulio_seabra
 {
     public class MacronutrienteContex
     {

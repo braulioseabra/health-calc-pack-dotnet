@@ -1802,6 +1802,16 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "health-calc-pack-dotnet-braulio-seabra/1.1.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/health-calc-pack-dotnet-braulio-seabra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/health-calc-pack-dotnet-braulio-seabra.dll": {}
+        }
       }
     }
   },
@@ -6098,12 +6108,18 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "health-calc-pack-dotnet-braulio-seabra/1.1.0": {
+      "type": "project",
+      "path": "../health-calc-pack-dotnet-braulio-seabra/src/health-calc-pack-dotnet-braulio-seabra/health-calc-pack-dotnet-braulio-seabra.csproj",
+      "msbuildProject": "../health-calc-pack-dotnet-braulio-seabra/src/health-calc-pack-dotnet-braulio-seabra/health-calc-pack-dotnet-braulio-seabra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "coverlet.collector >= 3.1.2",
+      "health-calc-pack-dotnet-braulio-seabra >= 1.1.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -6133,7 +6149,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-pack-dotnet-braulio-seabra/src/health-calc-pack-dotnet-braulio-seabra/health-calc-pack-dotnet-braulio-seabra.csproj": {
+              "projectPath": "/Users/brauliobarbosaguimaraesseabra/Documents/Desenvolvimento/health-calc-pack-dotnet-braulio-seabra/health-calc-pack-dotnet-braulio-seabra/src/health-calc-pack-dotnet-braulio-seabra/health-calc-pack-dotnet-braulio-seabra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
