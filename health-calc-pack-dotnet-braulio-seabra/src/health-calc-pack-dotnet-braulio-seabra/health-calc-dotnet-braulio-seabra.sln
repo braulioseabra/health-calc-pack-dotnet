@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		health-calc-dotnet.sln = health-calc-dotnet.sln
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "health-calc-console-dotnet", "health-calc-console-dotnet\health-calc-console-dotnet.csproj", "{290EECE5-75BE-4F2C-AD57-68C8649EC9B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{F11F5365-AD0C-4CFB-9956-0D5D482B7BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11F5365-AD0C-4CFB-9956-0D5D482B7BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11F5365-AD0C-4CFB-9956-0D5D482B7BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290EECE5-75BE-4F2C-AD57-68C8649EC9B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290EECE5-75BE-4F2C-AD57-68C8649EC9B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290EECE5-75BE-4F2C-AD57-68C8649EC9B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290EECE5-75BE-4F2C-AD57-68C8649EC9B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,8 @@ Global
 		$4.scope = text/plain
 		$0.StandardHeader = $5
 		version = 0.2
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{290EECE5-75BE-4F2C-AD57-68C8649EC9B3} = {00722F11-948B-4D44-8F12-FA964614EC93}
 	EndGlobalSection
 EndGlobal
