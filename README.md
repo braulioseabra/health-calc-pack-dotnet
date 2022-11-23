@@ -71,7 +71,9 @@ Console Application que faz uso do pacote health-calc-pack-dotnet-braulio-seabra
 
 1. Clonar o repositório Git;
 2. Realizar o build do projeto health-calc-pack-dotnet-braulio-seabra;
-3. Executar a aplicação em modo console através do projeto health-calc-console-dotnet.
+3. Executar os testes unitários através do projeto health-calc-test-xunit;
+4. Adicionar o pacote Nuget: health-calc-pack-dotnet-braulio-seabra;
+5. Executar a aplicação em modo console através do projeto health-calc-console-dotnet.
 Importante: 
     * Informar a altura em metros e o peso em Kg.
 
